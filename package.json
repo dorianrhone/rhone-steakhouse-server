@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/dorianrhone/rhone-steakhouse-server#readme",
   "dependencies": {
+    "dotenv": "^18.0.9",
     "mongodb": "^7.8.0",
     "mongoose": "^9.11.4"
   }
