@@ -2,9 +2,10 @@
   "name": "rhone-steakhouse-server",
   "version": "1.0.0",
   "description": "Making hello world. Let's see this on render!",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node app.js"
+    "start": "node index.js",
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
