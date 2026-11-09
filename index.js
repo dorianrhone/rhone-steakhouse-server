@@ -25,8 +25,7 @@ let menuItems = [
         "category": "APPETIZERS",
         "description": "Fresh Charleston oysters served with lemon and cocktail sauce.",
         "price": 18,
-        "availability": "Dinner",
-        "img_name": "images/menu/oysters.jpg"
+        "img_name": "oysters.jpg"
     },
     {
         "_id": 2,
@@ -34,8 +33,7 @@ let menuItems = [
         "category": "APPETIZERS",
         "description": "Lump crab cakes served with remoulade sauce.",
         "price": 22,
-        "availability": "Dinner",
-        "img_name": "images/menu/crabcakes.jpg"
+        "img_name": "crabcakes.jpg"
     },
     {
         "_id": 3,
@@ -43,8 +41,7 @@ let menuItems = [
         "category": "APPETIZERS",
         "description": "Crispy fried calamari served with marinara sauce.",
         "price": 16,
-        "availability": "Dinner",
-        "img_name": "images/menu/calamari.jpg"
+        "img_name": "calamari.jpg"
     },
     {
         "_id": 4,
@@ -52,8 +49,7 @@ let menuItems = [
         "category": "APPETIZERS",
         "description": "Pan-seared scallops served with a lemon butter sauce.",
         "price": 24,
-        "availability": "Dinner",
-        "img_name": "images/menu/scallops.jpg"
+        "img_name": "scallops.jpg"
     },
     {
         "_id": 5,
@@ -61,8 +57,7 @@ let menuItems = [
         "category": "STEAK & CHOPS",
         "description": "Grilled rib-eye steak with garlic butter.",
         "price": 48,
-        "availability": "Dinner",
-        "img_name": "images/menu/ribeye.jpg"
+        "img_name": "ribeye.jpg"
     },
     {
         "_id": 6,
@@ -70,8 +65,7 @@ let menuItems = [
         "category": "STEAK & CHOPS",
         "description": "Grilled filet mignon with a red wine reduction.",
         "price": 54,
-        "availability": "Dinner",
-        "img_name": "images/menu/filet.jpg"
+        "img_name": "filet.jpg"
     },
     {
         "_id": 7,
@@ -79,8 +73,7 @@ let menuItems = [
         "category": "STEAK & CHOPS",
         "description": "Grilled New York strip steak with a peppercorn sauce.",
         "price": 50,
-        "availability": "Dinner",
-        "img_name": "images/menu/strip.jpg"
+        "img_name": "strip.jpg"
     },
     {
         "_id": 8,
@@ -88,8 +81,7 @@ let menuItems = [
         "category": "SEAFOOD",
         "description": "Pan-seared salmon fillet with a dill cream sauce.",
         "price": 26,
-        "availability": "Dinner",
-        "img_name": "images/menu/salmon.jpg"
+        "img_name": "salmon.jpg"
     },
     {
         "_id": 9,
@@ -97,8 +89,7 @@ let menuItems = [
         "category": "SEAFOOD",
         "description": "Grilled lobster tail served with drawn butter.",
         "price": 34,
-        "availability": "Dinner",
-        "img_name": "images/menu/lobster.jpg"
+        "img_name": "lobster.jpg"
     },
     {
         "_id": 10,
@@ -106,8 +97,7 @@ let menuItems = [
         "category": "SEAFOOD",
         "description": "Steamed king crab legs served with drawn butter.",
         "price": 36,
-        "availability": "Dinner",
-        "img_name": "images/menu/kingcrab.jpg"
+        "img_name": "kingcrab.jpg"
     },
     {
         "_id": 11,
@@ -115,8 +105,7 @@ let menuItems = [
         "category": "DESSERT",
         "description": "Warm chocolate cake with a molten center.",
         "price": 12,
-        "availability": "Dinner",
-        "img_name": "images/menu/lavacake.jpg"
+        "img_name": "lavacake.jpg"
     },
     {
         "_id": 12,
@@ -124,8 +113,7 @@ let menuItems = [
         "category": "DESSERT",
         "description": "Classic New York-style cheesecake.",
         "price": 10,
-        "availability": "Dinner",
-        "img_name": "images/menu/cheesecake.jpg"
+        "img_name": "cheesecake.jpg"
     },
     {
         "_id": 13,
@@ -133,8 +121,7 @@ let menuItems = [
         "category": "DESSERT",
         "description": "Vanilla ice cream with chocolate sauce and whipped cream.",
         "price": 8,
-        "availability": "Dinner",
-        "img_name": "images/menu/sundae.jpg"
+        "img_name": "sundae.jpg"
     },
     {
         "_id": 14,
@@ -142,8 +129,7 @@ let menuItems = [
         "category": "WINES",
         "description": "Elegant and crisp white wine with notes of citrus and oak.",
         "price": 14,
-        "availability": "Dinner",
-        "img_name": "images/menu/chardonnay.jpg"
+        "img_name": "chardonnay.jpg"
     },
     {
         "_id": 15,
@@ -151,8 +137,7 @@ let menuItems = [
         "category": "WINES",
         "description": "Smooth red wine with flavors of plum and chocolate.",
         "price": 16,
-        "availability": "Dinner",
-        "img_name": "images/menu/merlot.jpg"
+        "img_name": "merlot.jpg"
     },
     {
         "_id": 16,
@@ -160,8 +145,7 @@ let menuItems = [
         "category": "WINES",
         "description": "Light-bodied red wine with hints of cherry and raspberry.",
         "price": 18,
-        "availability": "Dinner",
-        "img_name": "images/menu/pinotnoir.jpg"
+        "img_name": "pinotnoir.jpg"
     }
 ];
 
