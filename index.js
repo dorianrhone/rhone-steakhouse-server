@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const multer = require('multer');
+const Joi = require('joi');
 const app = express();
-
 app.use(express.static('public'));
 app.use(express.json());
 app.use(cors());
@@ -152,6 +152,22 @@ let menuItems = [
 app.get('/api/menu', (req, res) => {
   res.json(menuItems);
 });
+
+app.post("/api/menu", upload.single('img'), () => {
+    console.log("in post");
+});
+
+const validateMenuItem = (item) => {
+    const schema = Joi.object({
+        _id: Joi.allow(""),
+        name: Joi.string().min(3).required(),
+        category: Joi.string().required(),
+        description: Joi.string().required(),
+        price: Joi.number().min(0).required(),
+        img_name: Joi.string().required()
+    });
+    return schema.validate(item);
+}
 
 app.listen(3001, () => {
   console.log('Server is up and running');
