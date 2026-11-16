@@ -182,7 +182,7 @@ const validateMenuItem = (item) => {
         _id: Joi.allow(""),
         name: Joi.string().min(3).required(),
         category: Joi.string().required(),
-        description: Joi.string().required(),
+        description: Joi.string().min(10).required(),
         price: Joi.number().min(0).required(),
         img_name: Joi.allow("")
     });
