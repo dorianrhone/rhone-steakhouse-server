@@ -153,8 +153,28 @@ app.get('/api/menu', (req, res) => {
   res.json(menuItems);
 });
 
-app.post("/api/menu", upload.single('img'), () => {
-    console.log("in post");
+app.post("/api/menu", upload.single('img'), (req, res) => {
+    const result = validateMenuItem(req.body);
+
+    if (result.error) {
+        console.log("error in validation");
+        res.status(400).send(result.error.details[0].message);
+        return;
+    }
+
+    const menuItem = {
+        _id:menuItems.length + 1,
+        name:req.body.name,
+        category:req.body.category,
+        description:req.body.description,
+        price:req.body.price,
+    };
+    
+    if(req.file) {
+        menuItem.img_name = req.file.filename;
+    }
+    menuItems.push(menuItem);
+    res.status(200).send(menuItem);
 });
 
 const validateMenuItem = (item) => {
@@ -164,7 +184,7 @@ const validateMenuItem = (item) => {
         category: Joi.string().required(),
         description: Joi.string().required(),
         price: Joi.number().min(0).required(),
-        img_name: Joi.string().required()
+        img_name: Joi.allow("")
     });
     return schema.validate(item);
 }
